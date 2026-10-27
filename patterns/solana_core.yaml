@@ -1,0 +1,65 @@
+- id: SOL-AC-001
+  title: Missing owner check on sensitive account
+  severity: Critical
+  default_confidence: 0.75
+  description: >
+    An account is used without verifying that its owner matches the expected program.
+    This is a classic account confusion vector on Solana.
+  indicators:
+    - "AccountInfo"
+    - "/// CHECK"
+    - "UncheckedAccount"
+  remediation: >
+    Prefer typed Anchor accounts (Account<'info, T>) or explicitly check
+    account.owner == expected_program_id. Document any intentional exceptions.
+
+- id: SOL-AC-002
+  title: Missing signer check on privileged action
+  severity: Critical
+  default_confidence: 0.7
+  description: >
+    A privileged instruction does not verify that the required authority signed the transaction.
+  indicators:
+    - "is_signer"
+    - "Signer"
+  remediation: >
+    Require Signer<'info> or explicitly check account.is_signer for every authority.
+
+- id: SOL-CPI-001
+  title: Unverified CPI target
+  severity: High
+  default_confidence: 0.65
+  description: >
+    Cross-program invocation where the target program ID is taken from an account
+    without hard-coding or validating it against a known program.
+  indicators:
+    - "invoke("
+    - "invoke_signed("
+    - "CpiContext"
+  remediation: >
+    Hard-code expected program IDs or validate them against a whitelist before CPI.
+
+- id: SOL-PDA-001
+  title: Non-canonical or unchecked PDA bump
+  severity: High
+  default_confidence: 0.6
+  description: >
+    PDA derivation that may accept non-canonical bumps, allowing multiple addresses for the same seeds.
+  indicators:
+    - "find_program_address"
+    - "create_program_address"
+    - "bump"
+  remediation: >
+    Always use find_program_address (canonical bump) and store/verify the bump.
+
+- id: SOL-STATE-001
+  title: Potential reinitialization
+  severity: High
+  default_confidence: 0.55
+  description: >
+    Account initialization path that may allow re-init if constraints are incomplete.
+  indicators:
+    - "init"
+    - "init_if_needed"
+  remediation: >
+    Use init with proper constraints, or add explicit checks that the account is not already initialized.
