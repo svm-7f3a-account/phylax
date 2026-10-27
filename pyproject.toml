@@ -1,0 +1,19 @@
+[project]
+name = "phylax"
+version = "0.1.0"
+description = "Phylax (svm-7f3a-account) — Defensive AI-assisted vulnerability discovery for Solana"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pyyaml>=6.0",
+]
+
+[project.scripts]
+phylax = "phylax.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
