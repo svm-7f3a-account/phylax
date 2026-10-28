@@ -12,3 +12,4 @@
 - feat: harden scanner heuristics (3 days 8 hours ago)
 - docs: expand README and usage (3 days 6 hours ago)
 - docs: expand README and usage (3 days 4 hours ago)
+- chore: LICENSE (pass 29) (3 days 3 hours ago)
