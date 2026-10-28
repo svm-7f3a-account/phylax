@@ -13,3 +13,4 @@
 - docs: expand README and usage (3 days 6 hours ago)
 - docs: expand README and usage (3 days 4 hours ago)
 - chore: LICENSE (pass 29) (3 days 3 hours ago)
+- chore: tune dependencies (3 days 1 hour ago)
