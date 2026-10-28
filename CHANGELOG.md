@@ -8,3 +8,4 @@
 - feat: harden scanner heuristics (3 days 14 hours ago)
 - refactor:   init   (pass 23) (3 days 12 hours ago)
 - feat: improve CLI ergonomics (3 days 11 hours ago)
+- docs: reporter (pass 25) (3 days 9 hours ago)
