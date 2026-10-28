@@ -10,3 +10,4 @@
 - feat: improve CLI ergonomics (3 days 11 hours ago)
 - docs: reporter (pass 25) (3 days 9 hours ago)
 - feat: harden scanner heuristics (3 days 8 hours ago)
+- docs: expand README and usage (3 days 6 hours ago)
