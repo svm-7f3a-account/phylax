@@ -26,3 +26,4 @@
 - feat: harden scanner heuristics (2 days 9 hours ago)
 - docs: expand README and usage (2 days 7 hours ago)
 - docs: expand README and usage (2 days 6 hours ago)
+- refactor: LICENSE (pass 43) (2 days 4 hours ago)
