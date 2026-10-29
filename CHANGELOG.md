@@ -19,3 +19,4 @@
 - docs: pattern reviewer (2 days 20 hours ago)
 - docs: architecture (2 days 19 hours ago)
 - feat: extend patterns — solana core (2 days 17 hours ago)
+- feat: harden scanner heuristics (2 days 15 hours ago)
