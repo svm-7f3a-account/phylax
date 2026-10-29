@@ -17,3 +17,4 @@
 - chore: tune dependencies (2 days 23 hours ago)
 - docs: novel hypothesis (2 days 22 hours ago)
 - docs: pattern reviewer (2 days 20 hours ago)
+- docs: architecture (2 days 19 hours ago)
