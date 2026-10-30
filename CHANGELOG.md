@@ -35,3 +35,4 @@
 - feat: extend patterns — solana core (1 day 19 hours ago)
 - feat: harden scanner heuristics (1 day 17 hours ago)
 - feat:   init   (pass 51) (1 day 16 hours ago)
+- feat: improve CLI ergonomics (1 day 14 hours ago)
