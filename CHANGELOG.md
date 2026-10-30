@@ -32,3 +32,4 @@
 - docs: novel hypothesis (1 day 23 hours ago)
 - docs: pattern reviewer (1 day 22 hours ago)
 - docs: architecture (1 day 20 hours ago)
+- feat: extend patterns — solana core (1 day 19 hours ago)
