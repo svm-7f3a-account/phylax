@@ -40,3 +40,4 @@
 - feat: harden scanner heuristics (1 day 11 hours ago)
 - docs: expand README and usage (1 day 9 hours ago)
 - docs: expand README and usage (1 day 8 hours ago)
+- fix: LICENSE (pass 57) (1 day 6 hours ago)
