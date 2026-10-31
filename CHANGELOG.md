@@ -50,3 +50,4 @@
 - feat: harden scanner heuristics (19 hours 14 minutes ago)
 - docs:   init   (pass 65) (17 hours 32 minutes ago)
 - feat: improve CLI ergonomics (15 hours 58 minutes ago)
+- fix: reporter (pass 67) (14 hours 19 minutes ago)
