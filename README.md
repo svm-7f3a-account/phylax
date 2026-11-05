@@ -29,6 +29,13 @@ python -m phylax scan ./path/to/program
 python -m phylax report --findings findings.json --format markdown
 ```
 
+## Agent wallet
+
+The Phylax agent layer uses a dedicated Solana address for operator flows (tips, bounties, and other protocol-linked transfers). Publish this pubkey when wiring agents or dashboards:
+
+\HC5YE4MJiWxaBkmpdYfUyog2dYNaA7EHBNBAe7ZFdBCU
+Do not send mainnet funds here unless you intend them for Phylax agent operations.
+
 ## Project layout
 
 ```
